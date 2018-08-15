@@ -1,0 +1,7 @@
+{
+  "name": "flashLight",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

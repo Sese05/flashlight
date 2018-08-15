@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-item>
+    <span>The FlashLight is: {{status}}</span>
+  </ion-item>
+
+  <button ion-button color="secondary" (tap)="switchOn()">Switch On</button>
+  <button ion-button color="danger" (tap)="switchOff()">Switch Off</button>
+  <button ion-button  (tap)="toggle()">Toggle</button>
+</ion-content>
